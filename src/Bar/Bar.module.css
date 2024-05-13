@@ -1,0 +1,27 @@
+.list {
+    list-style: none;
+    display: flex; /* Make the list items horizontal */
+    justify-content: flex-start;
+    padding: 0; /* Remove default padding */
+  }
+  
+  .list li {
+    margin-right: 20px; /* Add right margin to create spacing between list items */
+  }
+  
+  hr {
+    border: none; /* Remove the border */
+    border-top: 1px solid #ccc; /* Add a simple horizontal line */
+    margin-top: 10px; /* Add margin to separate the navigation and content */
+  }
+  
+  .list a {
+    text-decoration: none;
+  }
+  
+  .list a {
+    padding: 10px 14px;
+    border-radius: 10px;
+    background-color: #ccc;
+  }
+  

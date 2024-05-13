@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  
+  li {
+    margin: 10px;
+  }
+  
+  /* Styles for the header */
+  header {
+    background-color: #007bff; /* Example background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add padding to the header */
+    text-align: center; /* Center-align the header text */
+  }
+  
+  /* Styles for the main content */
+  main {
+    padding: 20px; /* Add padding to the main content */
+  }
+  
+  /* Styles for section headings */
+  section h2 {
+    color: #333; /* Heading text color */
+  }
+  
+  /* Styles for section unordered lists */
+  section ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove default list padding */
+  }
+  
+  /* Styles for list items */
+  section li {
+    margin: 10px; /* Add margin to list items */
+  }
+  
+  /* Styles for the footer */
+  footer {
+    text-align: center; /* Center align the footer text */
+    padding: 10px; /* Add padding to the footer */
+    background-color: #f0f0f0; /* Example background color */
+  }
+  
